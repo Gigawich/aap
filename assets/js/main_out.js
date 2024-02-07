@@ -716,7 +716,7 @@
 
     const settings = {
         nick: '',
-        skin: 'gabe',
+        skin: 'wahfull',
         gamemode: '',
         accessCode: '',
         nickList:
@@ -726,9 +726,9 @@ exampleNick2
 
         showSkins: true,
         showNames: true,
-        darkTheme: true,
+        darkTheme: false,
         showColor: true,
-        showMass: false,
+        showMass: true,
         _showChat: true,
         get showChat() {
             return this._showChat;
@@ -740,8 +740,8 @@ exampleNick2
         },
         showMinimap: true,
         showPosition: false,
-        showBorder: false,
-        showGrid: false,
+        showBorder: true,
+        showGrid: true,
         playSounds: false,
         soundsVolume: 0.5,
         moreZoom: false,
