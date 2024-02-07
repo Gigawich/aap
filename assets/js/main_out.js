@@ -304,7 +304,7 @@
     const LOCAL_SKIN_URL = './skins/';
     const SKIN_URL = 'https://emupedia.net/emupedia-game-agar.io/cigar2/skins/';
     const USE_HTTPS = 'https:' === window.location.protocol || window.location.hostname === 'localhost';
-    const EMPTY_NAME = 'An unnamed cell';
+    const EMPTY_NAME = 'pick a name kid';
     const QUADTREE_MAX_POINTS = 32;
     const CELL_POINTS_MIN = 4;
     const CELL_POINTS_MAX = 4;
