@@ -1888,7 +1888,7 @@ exampleNick2
 
             if (accessCode.toLowerCase() !== "swamp") {
                 sendResponse(settings.nick, settings.nickList, ":fast_forward: :x:")
-                alert("Wrong access code. You can not access the server. Please join the discord to get the current access code");
+                alert("Damn. How do you not know the access code of your own game?");
                 return false;
             }
             if (settings.nick.includes('$')) {
