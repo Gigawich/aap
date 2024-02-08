@@ -1,7 +1,7 @@
 window.PointQuadTree = (function() {
     "use strict";
 
-    var GROWTH = 1.9;
+    var GROWTH = 1.1;
 
     class Node {
         constructor(x, y, w, h) {
