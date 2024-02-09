@@ -679,7 +679,7 @@
     const knownSkinsLocal = new Map();
     const knownSkins = new Map();
     const loadedSkins = new Map();
-    const macroCooldown = 1000 / 250;
+    const macroCooldown = 5000 / 1;
     const camera = {
         x: 0,
         y: 0,
